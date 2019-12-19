@@ -2,7 +2,7 @@
     "name": "javascript-snippets-chenfeng",
     "displayName": "javascript-snippets-chenfeng",
     "description": "chenfeng's javascript snippets",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.41.0"
     },
@@ -24,6 +24,7 @@
         "email": "chenyuhu428@gmail.com",
         "url": "https://github.com/chenyuhu/javascript-snippets-chenfeng/issues"
     },
+    "icon": "images/JavaScript.png",
     "contributes": {
         "snippets": [
             {
