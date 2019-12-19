@@ -1,0 +1,48 @@
+{
+    "name": "javascript-snippets-chenfeng",
+    "displayName": "javascript-snippets-chenfeng",
+    "description": "chenfeng's javascript snippets",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "author": {
+        "name": "陈锋",
+        "email": "chenyuhu428@gmail.com",
+        "url": "https://chenyuhu.js.org"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chenyuhu/javascript-snippets-chenfeng.git"
+    },
+    "homepage": "https://github.com/chenyuhu/javascript-snippets-chenfeng",
+    "publisher": "chenyuhu209",
+    "bugs": {
+        "email": "chenyuhu428@gmail.com",
+        "url": "https://github.com/chenyuhu/javascript-snippets-chenfeng/issues"
+    },
+    "icon": "https://i.loli.net/2019/12/19/IGZRFYdKnAcgria.png",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/snippetsvue.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/snippetshtml.json"
+            }
+        ]
+    }
+}

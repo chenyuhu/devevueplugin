@@ -1,0 +1,33 @@
+{
+  "cf to vue model": {
+    "prefix": "vue",
+    "body": [
+      "<!-- $1 -->",
+      "<template>",
+      "  <div>",
+      "",
+      "  </div>",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "  data() {",
+      "    return {",
+      "    }",
+      "  },",
+      "  props: {},",
+      "  methods: {},",
+      "  created() {},",
+      "  components: {},",
+      "  watch: {},",
+      "  computed: {},",
+      "}",
+      "</script>",
+      "",
+      "<style scoped lang='scss'>",
+      "</style>",
+      ""
+    ],
+    "description": "vue 的模板片段"
+  }
+}

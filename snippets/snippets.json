@@ -1,0 +1,25 @@
+{
+  "cf to log": {
+    "prefix": ["log","cl","cg","console"],
+    "body": [
+      "console.log('======================================')",
+      "console.log('$1')",
+      "console.log('======================================')"
+    ],
+    "description": "Log output to console"
+  },
+  "cf to export": {
+    "prefix": ["ed","exd","epd"],
+    "body": [
+      "export default { $1 }"
+    ],
+    "description": "默认导出"
+  },
+  "cf to interface": {
+    "prefix": ["inter","inf"],
+    "body": [
+      "interface $1 { }"
+    ],
+    "description": "ts 的接口"
+  }
+}

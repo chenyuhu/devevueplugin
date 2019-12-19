@@ -1,0 +1,12 @@
+{
+  "cf to elementButton": {
+    "prefix": [
+      "elb",
+      "eb"
+    ],
+    "body": [
+      "<el-button type='primary' @click='$1'></el-button>"
+    ],
+    "description": "element 的模板片段"
+  }
+}
