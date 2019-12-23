@@ -21,5 +21,14 @@
       "interface $1 { }"
     ],
     "description": "ts 的接口"
+  },
+  "cf to module.exports": {
+    "prefix": ["mp","mop","mep"],
+    "body": [
+      "module.exports = {",
+      "   $1",
+      "}"
+    ],
+    "description": "模块导出"
   }
 }
