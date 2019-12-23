@@ -2,7 +2,7 @@
     "name": "javascript-snippets-chenfeng",
     "displayName": "javascript-snippets-chenfeng",
     "description": "chenfeng's javascript snippets",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.41.0"
     },
