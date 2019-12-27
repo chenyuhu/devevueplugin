@@ -29,5 +29,30 @@
       ""
     ],
     "description": "vue 的模板片段"
+  },
+  "cf to vue model of ts": {
+    "prefix": "tsVue",
+    "body": [
+      "<!-- $1 -->",
+      "<template>",
+      "  <div>",
+      "",
+      "  </div>",
+      "</template>",
+      "",
+      "<script lang='ts>",
+      "import { Prop, Vue, Watch } from 'vue-property-decorator'",
+      "export default class HelloWorld extends Vue {",
+      "  @Prop() ",
+      "  created(){}",
+      "  @Watch()",
+      "}",
+      "</script>",
+      "",
+      "<style scoped lang='scss'>",
+      "</style>",
+      ""
+    ],
+    "description": "vue 的模板片段"
   }
 }
