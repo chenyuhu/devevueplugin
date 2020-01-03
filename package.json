@@ -2,13 +2,17 @@
     "name": "javascript-snippets-chenfeng",
     "displayName": "javascript-snippets-chenfeng",
     "description": "chenfeng's javascript snippets",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "engines": {
         "vscode": "^1.41.0"
     },
     "categories": [
         "Snippets"
     ],
+    "scripts": {
+        "build": "vsce package",
+        "push": "vsce publish"
+    },
     "author": {
         "name": "陈锋",
         "email": "chenyuhu428@gmail.com",
