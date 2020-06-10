@@ -11,7 +11,7 @@
     ],
     "scripts": {
         "build": "vsce package",
-        "push": "git push --tags && git push && npm publish && vsce publish",
+        "push": "git push --tags  && npm publish && vsce publish",
         "postversion": "yarn build && yarn push"
     },
     "author": {
